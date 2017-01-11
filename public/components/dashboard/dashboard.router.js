@@ -7,7 +7,9 @@
 
           .state('dashboard', {
             url: '/dashboard',
-            templateUrl : "components/dashboard/dashboard.html"
+            templateUrl: "components/dashboard/dashboard.html",
+            controller: 'dashboard.ctrl',
+            controllerAs: 'dashCtrl'
           })
       });
 })();
